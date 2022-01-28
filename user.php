@@ -54,6 +54,7 @@ public $db;
         }
         else $message= "Le mot de passe est trop court !";       
     
+        
         public function connect($login,$password){
 
             if(isset($_POST['sign_in'])){
